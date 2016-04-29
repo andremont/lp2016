@@ -18,7 +18,7 @@ public class Exercise {
 	static List<String> getWordsAsList() {
 		String content;
 		try {
-			content = new String(Files.readAllBytes(Paths.get("/alice.txt")), StandardCharsets.UTF_8);
+			content = new String(Files.readAllBytes(Paths.get("src/alice.txt")), StandardCharsets.UTF_8);
 			return Arrays.asList(content.split("[\\P{L}]+"));
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -29,7 +29,7 @@ public class Exercise {
 	static String[] getWordsAsArray() {
 		String content;
 		try {
-			content = new String(Files.readAllBytes(Paths.get("/alice.txt")), StandardCharsets.UTF_8);
+			content = new String(Files.readAllBytes(Paths.get("src/alice.txt")), StandardCharsets.UTF_8);
 			return content.split("[\\P{L}]+");
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -10,7 +10,7 @@ public class Exercise {
 
 	public static void main (String args[])
 	{
-		for(String word : getWordsAsArray())
+		for(String word : getWordsAsList())
 			System.out.printf("%s | ", word);
 	}
 

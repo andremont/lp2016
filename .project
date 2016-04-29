@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>lp2016-git</name>
+	<name>lp2016-2</name>
 	<comment></comment>
 	<projects>
+		<project>lp2016-git</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
